@@ -19,7 +19,8 @@ public static IParser<string> Concat(this IParser<IEnumerable<string>> parser)
 Concatenates the two successfully parsed collections.
 
 ```csharp
-public static IParser<IReadOnlyList<T>> Concat<T>(this IParser<IEnumerable<T>> firstParser, IParser<IEnumerable<T>> secondParser)
+public static IParser<IReadOnlyList<T>> Concat<T>(this IParser<IEnumerable<T>> firstParser, 
+    IParser<IEnumerable<T>> secondParser)
 ```
 
 ## See Also

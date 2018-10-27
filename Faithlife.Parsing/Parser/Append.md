@@ -3,7 +3,8 @@
 Appends a successfully parsed value to the end of a successfully parsed collection.
 
 ```csharp
-public static IParser<IReadOnlyList<T>> Append<T>(this IParser<IEnumerable<T>> firstParser, IParser<T> secondParser)
+public static IParser<IReadOnlyList<T>> Append<T>(this IParser<IEnumerable<T>> firstParser, 
+    IParser<T> secondParser)
 ```
 
 ## See Also

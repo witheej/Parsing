@@ -25,7 +25,6 @@ public struct TextPosition : IEquatable<TextPosition>
 
 ## See Also
 
-* struct [TextPosition](TextPosition.md)
 * namespace [Faithlife.Parsing](../Faithlife.Parsing.md)
 * [TextPosition.cs](https://github.com/Faithlife/Parsing/tree/master/src/Faithlife.Parsing/TextPosition.cs)
 

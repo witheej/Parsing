@@ -3,7 +3,8 @@
 Succeeds if the specified parser succeeds at least once, requiring and ignoring the specified delimiter between each item.
 
 ```csharp
-public static IParser<IReadOnlyList<T>> Delimited<T, U>(this IParser<T> parser, IParser<U> delimiter)
+public static IParser<IReadOnlyList<T>> Delimited<T, U>(this IParser<T> parser, 
+    IParser<U> delimiter)
 ```
 
 ## See Also

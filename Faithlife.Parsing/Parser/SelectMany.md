@@ -3,7 +3,8 @@
 Used to support LINQ query syntax.
 
 ```csharp
-public static IParser<V> SelectMany<T, U, V>(this IParser<T> parser, Func<T, IParser<U>> selector, Func<T, U, V> projector)
+public static IParser<V> SelectMany<T, U, V>(this IParser<T> parser, Func<T, IParser<U>> selector, 
+    Func<T, U, V> projector)
 ```
 
 ## See Also

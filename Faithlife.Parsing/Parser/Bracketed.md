@@ -3,7 +3,8 @@
 Succeeds if the specified parsers succeed beforehand and afterward (ignoring their results).
 
 ```csharp
-public static IParser<T> Bracketed<T, U, V>(this IParser<T> parser, IParser<U> precededBy, IParser<V> followedBy)
+public static IParser<T> Bracketed<T, U, V>(this IParser<T> parser, IParser<U> precededBy, 
+    IParser<V> followedBy)
 ```
 
 ## See Also

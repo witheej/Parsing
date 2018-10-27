@@ -22,7 +22,6 @@ public struct LineColumn : IEquatable<LineColumn>
 
 ## See Also
 
-* struct [LineColumn](LineColumn.md)
 * namespace [Faithlife.Parsing](../Faithlife.Parsing.md)
 * [LineColumn.cs](https://github.com/Faithlife/Parsing/tree/master/src/Faithlife.Parsing/LineColumn.cs)
 

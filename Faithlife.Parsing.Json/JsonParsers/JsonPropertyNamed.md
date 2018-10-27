@@ -19,7 +19,8 @@ public static IParser<T> JsonPropertyNamed<T>(this IParser<T> parser, string nam
 Parses a JSON object property into its value. Fails if the property name doesn't match the specified name.
 
 ```csharp
-public static IParser<T> JsonPropertyNamed<T>(this IParser<T> parser, string name, StringComparison comparison)
+public static IParser<T> JsonPropertyNamed<T>(this IParser<T> parser, string name, 
+    StringComparison comparison)
 ```
 
 ## See Also

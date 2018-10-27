@@ -19,7 +19,8 @@ public static IParser<IEnumerable<T>> OrEmpty<T>(this IParser<IEnumerable<T>> pa
 Succeeds with an empty collection if the parser fails.
 
 ```csharp
-public static IParser<IReadOnlyCollection<T>> OrEmpty<T>(this IParser<IReadOnlyCollection<T>> parser)
+public static IParser<IReadOnlyCollection<T>> OrEmpty<T>(
+    this IParser<IReadOnlyCollection<T>> parser)
 ```
 
 ## See Also

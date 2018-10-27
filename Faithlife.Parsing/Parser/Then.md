@@ -3,7 +3,8 @@
 Executes one parser after another.
 
 ```csharp
-public static IParser<U> Then<T, U>(this IParser<T> parser, Func<T, IParser<U>> convertValueToNextParser)
+public static IParser<U> Then<T, U>(this IParser<T> parser, 
+    Func<T, IParser<U>> convertValueToNextParser)
 ```
 
 ## See Also

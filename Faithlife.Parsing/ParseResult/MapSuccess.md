@@ -3,7 +3,8 @@
 Maps a successful parse result into another parse result (success or failure).
 
 ```csharp
-public static IParseResult<U> MapSuccess<T, U>(this IParseResult<T> result, Func<IParseResult<T>, IParseResult<U>> convert)
+public static IParseResult<U> MapSuccess<T, U>(this IParseResult<T> result, 
+    Func<IParseResult<T>, IParseResult<U>> convert)
 ```
 
 ## See Also
